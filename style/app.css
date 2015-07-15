@@ -1,0 +1,206 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	-moz-user-select:none;
+	overflow: hidden;
+}
+.main{
+	width: 55%;
+	margin: 0 auto;
+}
+.left{
+	width: 20%;
+	height: 100%;
+	border:1px solid #E2E2E2;
+	float: left;
+}
+.left h1{
+	background-image: url(../images/list_top_bg.png);
+	display: block;
+	font-size: 12px;
+	height: 38px;
+	padding-left: 32px;
+	font-size: 1em;
+	line-height: 38px;
+	font-weight: bold;
+	font: 12px/3 Tahoma,'Microsoft Yahei','Simsun';
+}
+.item h2{
+	color:#666666;
+	cursor: pointer;
+	font-size: 1em;
+	font: 12px/1.5 Tahoma,'Microsoft Yahei','Simsun';
+	border-top: 1px solid #E5E5E5;
+	background-color: #F0F8FF;
+	height: 34px;
+	line-height: 34px;
+	padding-left: 18px;
+	font-weight: bold;
+	background-image: url(../images/jia.png);
+	background-repeat: no-repeat;
+	background-position:5px;
+}
+.item ul{
+	list-style: none;
+	display: none;
+	max-height:400px;
+	overflow-y:auto;
+	width: 100%;
+	scrollbar-3dlight-color:#e5e3e3;		/* 滚动条背景颜色 */
+	scrollbar-track-color:#e5e3e3;			/* 滚动条背景颜色 */
+	scrollbar-darkshadow-color:#e5e3e3;	/* 滚动条背景颜色 */
+	scrollbar-arrow-color:#e5e3e3;			/* 滚动条2头的小三解形颜色 */
+	scrollbar-face-color:#878480;			/* 滚动条 滚条和2头的颜色*/
+	scrollbar-highlight-color:#878480;		/* 滚动条 左上边框颜色*/
+	scrollbar-shadow-color:#878480;		/* 滚动条 右下边框颜色*/
+}
+
+.item ul::-webkit-scrollbar{width:12px;height:12px;}
+.item ul::-webkit-scrollbar-button:start:decrement,.item ul ::-webkit-scrollbar-button:end:increment{
+	width:0;height:0;
+}
+.item ul ::-webkit-scrollbar-track-piece{
+	background-color:#e5e3e3;
+	border-width:0;
+}
+.item ul ::-webkit-scrollbar-track-piece:vertical{
+	border-width:0;
+}
+.item ul ::-webkit-scrollbar-track-piece:horizontal{
+	border-width:0;
+}
+.item ul::-webkit-scrollbar-thumb{
+	background-color:#878480;
+	border:none;
+	border-radius:0;
+}
+.item ul ::-webkit-scrollbar-thumb:vertical{
+	border-width:1px 1px 1px 2px;min-height:24px;
+}
+.item ul ::-webkit-scrollbar-thumb:horizontal{
+	border-width:2px 1px 1px 1px;min-width:24px;
+}
+.item ul ::-webkit-scrollbar-thumb:vertical:hover{
+	background-color:#56524b;
+}
+.item ul ::-webkit-scrollbar-thumb:horizontal:hover{
+	background-color:red;
+}
+
+
+
+.item ul li{
+	height: 28px;
+	line-height: 28px;
+	cursor: pointer;
+	margin-top: 0px;
+	padding-left: 18px;
+	font: 12px/2.2 Tahoma,'Microsoft Yahei','Simsun';
+}
+.item_mou{
+	background-color: #E9E9E9;
+}
+.item_active{
+	background-color: #4F7BA7;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 100px;
+}
+.right{
+	width: 78%;
+	height: 500px;
+	float: left;
+	margin-left: 10px;
+	border:1px solid #E2E2E2;
+}
+.top ul{
+	background: url("../images/right-title-bg.png");
+	display: block;
+	height: auto;
+	height: 38px;
+	overflow: hidden;
+}
+.top ul li{
+	list-style: none;
+	float: left;
+	margin-left: 30px;
+	font-size: 0.7em;
+	cursor: pointer;
+	width: 110px;
+	height: 38px;
+	padding-top: 10px;
+	text-align: center;
+}
+.ed{
+	background-color: #ffffff;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	font-weight: bold;
+	border-radius: 10px;
+}
+.tips{
+	width: 98%;
+	height: 30px;
+	background-color: #EEEEEE;
+	margin:5px auto;
+	font-size: 0.6em;
+	line-height: 30px;
+}
+.k{
+	margin-left: 10px;
+	margin-right: 55%;
+}
+.d{
+	margin-left: 20px;
+}
+.kc{
+	width: 98%;
+	margin:0px auto;
+	height: 100%;
+}
+.kc table{
+	width: 100%;
+	font-size: 13px;
+	color: #444;
+	border-collapse: collapse;
+}
+.kc table tr{
+	height: 25px;
+	line-height: 25px;
+	max-height: 25px;
+	border-bottom:2px dotted   #ccc;
+}
+.kc1 table{
+	width: 100%;
+	font-size: 13px;
+	margin-top: 10px;
+	color: #444;
+}
+.kc1{
+	width: 98%;
+	margin:-5px auto;
+	height: 100%;
+}
+.kc1 table tr{
+	height: 30px;
+	line-height: 30px;
+	max-height: 30px;
+	background-color: #eee;
+
+}
+.tou a{
+	text-decoration: none;
+	color: #3392D2;
+}
+.tou a:hover{
+	text-decoration: underline;
+}
+.wei a{
+	color:#444;
+	text-decoration: none;
+}
+.wei a:hover{
+	text-decoration: underline;
+}
